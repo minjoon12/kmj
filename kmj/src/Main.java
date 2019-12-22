@@ -37,6 +37,9 @@ public class Main extends JFrame{
 	
 	CenterJP centerJP = new CenterJP();
 	
+	/**
+	 * 林籍眠啊
+	 */
 	public Main()
 	{
 		setTitle("颇老包府");
