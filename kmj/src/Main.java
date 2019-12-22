@@ -38,7 +38,7 @@ public class Main extends JFrame{
 	CenterJP centerJP = new CenterJP();
 	
 	/**
-	 * 주석추가1111111111111111111111111
+	 * 주석추가
 	 */
 	public Main()
 	{
