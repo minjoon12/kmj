@@ -24,7 +24,7 @@ import javax.swing.JFrame;
 import org.imgscalr.Scalr;
 
 // ***https://github.com/rkalla/imgscalr*** /////////// scalr 라이브러리 다운!!!!!!!!!!!!!!!!!!!!!!!!!
-// 자바 
+// 자바 1111
 
 public class Main extends JFrame{
 	
