@@ -23,26 +23,26 @@ import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import org.imgscalr.Scalr;
 
-// ***https://github.com/rkalla/imgscalr*** /////////// scalr ¶óÀÌºê·¯¸® ´Ù¿î!!!!!!!!!!!!!!!!!!!!!!!!!
+// ***https://github.com/rkalla/imgscalr*** /////////// scalr ë¼ì´ë¸ŒëŸ¬ë¦¬ ë‹¤ìš´!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
 public class Main extends JFrame{
 	
-	public static String MUSIC_PATH = "C:/Users/ÇĞ»ı¿ë/Desktop/java nas(°­¹ÎÁØ)/music/";
-	public static String PICTURE_PATH = "C:/Users/ÇĞ»ı¿ë/Desktop/java nas(°­¹ÎÁØ)/Image/";
-	public static String THUMBNAIL_PATH = "C:/Users/ÇĞ»ı¿ë/Desktop/java nas(°­¹ÎÁØ)/thumbnail/";
-	public static String INTERFACE_PATH = "C:/Users/ÇĞ»ı¿ë/Desktop/java nas(°­¹ÎÁØ)/interface/";
+	public static String MUSIC_PATH = "C:/Users/í•™ìƒìš©/Desktop/java nas(ê°•ë¯¼ì¤€)/music/";
+	public static String PICTURE_PATH = "C:/Users/í•™ìƒìš©/Desktop/java nas(ê°•ë¯¼ì¤€)/Image/";
+	public static String THUMBNAIL_PATH = "C:/Users/í•™ìƒìš©/Desktop/java nas(ê°•ë¯¼ì¤€)/thumbnail/";
+	public static String INTERFACE_PATH = "C:/Users/í•™ìƒìš©/Desktop/java nas(ê°•ë¯¼ì¤€)/interface/";
 	
 	WestJP folderJP = new WestJP();
 	
 	CenterJP centerJP = new CenterJP();
 	
 	/**
-	 * ÁÖ¼®Ãß°¡
+	 * ì£¼ì„ì¶”ê°€1111111111111111111111111
 	 */
 	public Main()
 	{
-		setTitle("ÆÄÀÏ°ü¸®");
+		setTitle("íŒŒì¼ê´€ë¦¬");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = getContentPane();
 
