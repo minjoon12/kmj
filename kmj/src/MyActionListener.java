@@ -14,5 +14,6 @@ public class MyActionListener implements ActionListener {
 
 	public void actionPerformed(ActionEvent e) {
 			centerJP.musicPlay(file);
+			
 	}
 }
