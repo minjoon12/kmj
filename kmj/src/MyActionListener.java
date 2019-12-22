@@ -7,12 +7,13 @@ import java.net.URL;
 
 import jaco.mp3.player.MP3Player;
 
-public class MyActionListener implements ActionListener {
+public class MyActionListener implements ActionListener{
 
 	File file;
 	CenterJP centerJP;
 
 	public void actionPerformed(ActionEvent e) {
 			centerJP.musicPlay(file);
+			
 	}
 }
