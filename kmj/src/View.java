@@ -5,7 +5,6 @@ public class View extends JFrame{
 	public View(String imagename) {
 		
 		setTitle(imagename);
-        
         setSize(500,500);
         setResizable(true);
         setVisible(true);

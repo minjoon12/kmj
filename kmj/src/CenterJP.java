@@ -18,7 +18,7 @@ public class CenterJP extends JPanel {
 
 	//  클래스에는  멤버변수 ,  멤버 함수 
 	
-	
+	int i;
 	public CenterJP() {
 		WestJP WJ = new WestJP();
 		GridLayout Grid = new GridLayout(5, 4, 5, 5);
@@ -39,7 +39,6 @@ public class CenterJP extends JPanel {
 					add(imageBtn);
 
 					imageBtn.addActionListener(new ActionListener() {
-
 						@Override
 						public void actionPerformed(ActionEvent e) {
 							Imagebutton btn = (Imagebutton) e.getSource();
@@ -66,11 +65,10 @@ public class CenterJP extends JPanel {
 					JButton musicbtn = new JButton(files[i].getName());
 					add(musicbtn);
 					
-					MyActionListener myActionListener = new MyActionListener();
-					myActionListener.file=files[i];
-					myActionListener.centerJP=this;
+					MyActionListener MA = new MyActionListener();
 					
-					musicbtn.addActionListener(myActionListener);
+					musicbtn.addActionListener(MA);
+					
 				} else {
 					JButton btn = new JButton("no music");
 					add(btn);
@@ -84,16 +82,16 @@ public class CenterJP extends JPanel {
 	
 	MP3Player player;
 	
-	public void musicPlay(File file) {
+	public void musicPlay() {
+		File f = new File(Main.MUSIC_PATH);
+		File[] files = f.listFiles();
 		try{
-			//음악재생
-			//다른음악 재생시 정지
-			//음악 재생 정지
 			if(player!=null) player.stop();
 			
-			player = new MP3Player(file);
+			player = new MP3Player(files[i]);
 			player.play();
-			
+			Musicview MV = new Musicview();
+			add(MV);
 		}catch (Exception exception) {
 			System.out.println("Error with playing sound.");
 			exception.printStackTrace();
@@ -101,3 +99,15 @@ public class CenterJP extends JPanel {
 		return;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
