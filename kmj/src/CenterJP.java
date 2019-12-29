@@ -16,7 +16,8 @@ import jaco.mp3.player.MP3Player;
 
 public class CenterJP extends JPanel {
 
-	//  클래스에는  멤버변수 ,  멤버 함수 
+	//  클래스에는  멤버변수 ,  멤버 함수   branch1
+	// branch11111111111111111
 	
 	int i;
 	public CenterJP() {
